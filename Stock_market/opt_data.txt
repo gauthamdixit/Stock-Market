@@ -1,0 +1,59 @@
+Close as the only feature:
+
+Hsize: 128, att_size: 2, dropout: 0.2: 32.00516128540039
+Hsize: 128, att_size: 2, dropout: 0.3: 31.47524070739746
+Hsize: 128, att_size: 8, dropout: 0.2: 28.432701110839844
+Hsize: 128, att_size: 8, dropout: 0.3: 29.797426223754883
+Hsize: 256, att_size: 2, dropout: 0.2: 31.00210189819336
+Hsize: 256, att_size: 2, dropout: 0.3: 34.08782958984375
+Hsize: 256, att_size: 8, dropout: 0.2: 33.38908386230469
+Hsize: 256, att_size: 8, dropout: 0.3: 36.399383544921875
+
+All features included:
+
+
+Hsize: 128, att_size: 2, dropout: 0.2: 32.35734939575195
+Hsize: 128, att_size: 2, dropout: 0.3: 35.066261291503906
+Hsize: 128, att_size: 8, dropout: 0.2: 26.491493225097656
+Hsize: 128, att_size: 8, dropout: 0.3: 27.56694984436035
+Hsize: 256, att_size: 2, dropout: 0.2: 37.135311126708984
+
+
+New Dataset with sentiment (broad horizon encoder, 3 year look back to predict 1 year ahead):
+
+Hsize: 128, att_size: 2, dropout: 0.2: 31.850177764892578
+Hsize: 128, att_size: 2, dropout: 0.3: 29.568275451660156
+Hsize: 128, att_size: 8, dropout: 0.2: 30.05042266845703
+Hsize: 128, att_size: 8, dropout: 0.3: 25.89613151550293
+Hsize: 256, att_size: 2, dropout: 0.2: 30.913570404052734
+Hsize: 256, att_size: 2, dropout: 0.3: 26.3494873046875
+Hsize: 256, att_size: 8, dropout: 0.2: 35.974403381347656
+
+newest model ( batch size 32 180 h size, 2 year encoder legnth, reduced features, No RSI):
+
+Hsize: 180, att_size: 4, dropout: 0.3: 31.367982864379883
+Hsize: 180, att_size: 8, dropout: 0.3: 36.96275329589844
+
+newest model ( batch size 32 180 h size, 2 year encoder legnth, removed more features, added more lag features, No RSI):
+Hsize: 130, att_size: 2, dropout: 0.3: 29.786476135253906
+
+Hsize: 130, att_size: 4, dropout: 0.3: 34.52955627441406
+Hsize: 130, att_size: 8, dropout: 0.3: 30.620811462402344
+Hsize: 200, att_size: 2, dropout: 0.3: 25.159223556518555
+Hsize: 200, att_size: 4, dropout: 0.3: 27.03886604309082
+
+
+Hsize: 200, att_size: 8, dropout: 0.3: 31.950910568237305
+
+higher hsize:
+
+
+Hsize: 300, att_size: 3, dropout: 0.3: 19.579504013061523
+
+
+Hsize: 312, att_size: 2, dropout: 0.3: 35.20785140991211
+Hsize: 312, att_size: 3, dropout: 0.3: 16.983970642089844
+Hsize: 312, att_size: 3, dropout: 0.3: 24.504350662231445
+Hsize: 350, att_size: 3, dropout: 0.3: 7.328617572784424
+
+Hsize: 350, att_size: 6, dropout: 0.3: 18.13863182067871
