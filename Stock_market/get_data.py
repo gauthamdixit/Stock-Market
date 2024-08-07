@@ -32,7 +32,7 @@ def get_historical_data(symbol):
 
 # Function to get technical indicators from Alpha Vantage
 def get_technical_indicators(symbol):
-    ti = TechIndicators(key='86LQSB88OS3BDT0W', output_format='pandas')
+    ti = TechIndicators(key='###########', output_format='pandas')
     data, _ = ti.get_rsi(symbol=symbol, interval='daily')
     data.index = data.index.tz_localize(None)  # Ensure timezone-naive
     data = data.reindex(date_range, method='ffill')  # Align dates to the common date range, forward fill missing data
