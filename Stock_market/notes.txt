@@ -1,7 +1,4 @@
 model with all features performs better than model with just 'close'
 
-news api:  url = f'https://newsapi.org/v2/everything?q={symbol}&apiKey=f562ffa9d0f04d8993b00f0fcfe29752'
-
-ti = TechIndicators(key='86LQSB88OS3BDT0W', output_format='pandas')
 
 Seasonality and Trends: The chosen encoder and prediction lengths should capture the relevant seasonality and trends in the data. In financial markets, annual cycles, quarterly earnings reports, and macroeconomic trends are significant factors.
